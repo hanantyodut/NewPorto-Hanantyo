@@ -7,7 +7,7 @@ import CertificateTab from "./cert.tab";
 
 export default function Experiences() {
   return (
-    <div className="md:w-[60%] h-[60vh]">
+    <div className="md:w-[60%] h-[85vh] md:h-[50vh] ">
       <div className="flex flex-row gap-4 items-center justify-center">
         <p className="text-center text-lg md:text-xl text-gray-800 dark:text-gray-300 font-light">
           Experiences.
