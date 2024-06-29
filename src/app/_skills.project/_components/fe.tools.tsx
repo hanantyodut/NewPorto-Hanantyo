@@ -2,8 +2,8 @@ import SkillLogo from "@/app/_components/skill.logo";
 
 export default function FrontEndTools() {
   return (
-    <div className="md:w-[12rem] md:h-[12rem] bg-gray-200 dark:bg-gray-800 rounded-lg flex flex-col items-center">
-      <p className="text-gray-700 dark:text-white md:text-sm font-thin text-center md:p-2 ">
+    <div className="h-[8rem] md:w-[10rem] md:h-[10rem] bg-gray-200 dark:bg-gray-400 rounded-lg flex flex-col items-center">
+      <p className="text-gray-700 dark:text-black md:text-sm font-thin text-center md:p-2 ">
         Front-End Tools
       </p>
       <div className="flex flex-row gap-2 mt-4 items-center">

@@ -1,7 +1,7 @@
 export const navLinks: { path: string; label: string }[] = [
-  { path: "/", label: "Home" },
-  { path: "/", label: "About Me" },
-  { path: "/", label: "Skills & Projects" },
+  { path: "#home", label: "Home" },
+  { path: "#about", label: "About Me" },
+  { path: "#skill", label: "Skills & Projects" },
 ];
 
 export const bio: { name: string; value: string }[] = [
