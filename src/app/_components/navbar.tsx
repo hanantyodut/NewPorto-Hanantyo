@@ -27,7 +27,7 @@ export default function Navigation() {
         className={clsx(
           "sticky top-0 z-50 w-full text-black transition-all duration-300 ease-in-out",
           {
-            "bg-gray-600/20 backdrop-blur-md": scrolled,
+            "md:bg-gray-600/20 bg-gray-600/50 backdrop-blur-md": scrolled,
             "bg-[#cccccc] dark:bg-black": !scrolled,
           },
         )}
