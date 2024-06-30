@@ -1,12 +1,11 @@
 export const navLinks: { path: string; label: string }[] = [
-  { path: "#home", label: "Home" },
   { path: "#about", label: "About Me" },
-  { path: "#skill", label: "Skills & Projects" },
+  { path: "#skill", label: "Skills" },
+  { path: "#project", label: "Projects" },
 ];
 
 export const bio: { name: string; value: string }[] = [
   { name: "Fullname", value: "Hanantyo Dian Utomo" },
-  { name: "Pronouns", value: "Mr. , He/Him" },
   { name: "Date of Birth", value: "August 2nd, 1999" },
   { name: "Address", value: "Bekasi, West Java Province, Indonesia" },
   { name: "Zip-code", value: "17136" },

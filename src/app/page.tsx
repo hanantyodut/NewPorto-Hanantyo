@@ -1,11 +1,13 @@
 import ImageGue from "./_components/homeImage";
 import AboutMe from "./_about.me/about.me";
-import SkillsPro from "./_skills.project/skills.pro";
+import Contacts from "./_components/navbar.dropdown";
+import SkillsPage from "./_skills.project/skills";
+import ProjectsPage from "./_skills.project/Projects";
 
 export default function Home() {
   return (
     <div className="flex flex-col" id="home">
-      <div className="md:px-4 flex flex-col md:flex-row gap-20 md:justify-around items-center h-[80vh] md:h-[100vh] transition-colors duration-300 ">
+      <div className="md:px-4 flex flex-col md:flex-row gap-20 md:justify-around items-center h-[80vh] md:h-[83vh] transition-colors duration-300 ">
         <div className="md:w-[55%] w-full justify-start items-start">
           <p className="md:text-2xl text-xl font-semibold text-[#0891b2]">
             Hi! my name is
@@ -19,17 +21,21 @@ export default function Home() {
               Full-stack Developer
             </p>
             <p className="md:text-end mt-2 md:mt-0 text-gray-800 dark:text-gray-300 font-light">
-              I&#39;m a web developer with passion and enjoy designing simple
-              website while maintaining the best user experience.
+              Passionate about designing a simple, engaging websites that
+              prioritize user experience. Let&apos;s collaborate on your next
+              big idea!
             </p>
           </div>
+
+          <Contacts />
         </div>
-        <div className=" md:w-[47%] w-full h-full relative">
+        <div className=" md:w-[47%] w-full h-full relative mb-10">
           <ImageGue display="hidden md:block" />
         </div>
       </div>
       <AboutMe />
-      <SkillsPro />
+      <SkillsPage />
+      <ProjectsPage />
     </div>
   );
 }

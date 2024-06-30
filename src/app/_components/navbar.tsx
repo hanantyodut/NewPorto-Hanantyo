@@ -33,7 +33,7 @@ export default function Navigation() {
         )}
         color="primary"
       >
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="#">
           <span
             className={clsx(
               merriweather.className,
@@ -43,6 +43,7 @@ export default function Navigation() {
             Hanantyo.
           </span>
         </Navbar.Brand>
+
         <NavbarToggle />
         <Navbar.Collapse>
           {navLinks.map(({ path, label }, key) => (
@@ -52,7 +53,6 @@ export default function Navigation() {
           ))}
         </Navbar.Collapse>
         <div className="flex flex-row gap-2">
-          <Contacts />
           <DarkMode />
         </div>
       </Navbar>

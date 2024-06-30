@@ -9,10 +9,9 @@ export default function Experiences() {
   return (
     <div className="md:w-[60%] h-[85vh] md:h-[50vh] ">
       <div className="flex flex-row gap-4 items-center justify-center">
-        <p className="text-center text-lg md:text-xl text-gray-800 dark:text-gray-300 font-light">
+        <p className="text-center text-lg md:text-xl text-gray-800 dark:text-gray-300 border-b-[1px] border-t-[1px] border-[#0891b2] font-medium px-2">
           Experiences.
         </p>
-        <FaArrowCircleDown className="fill-[#0891b2]" />
       </div>
 
       <div className="mt-4">
