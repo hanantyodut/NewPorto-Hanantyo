@@ -7,16 +7,16 @@ export default function BackEndTools() {
         Back-End Development
       </p>
       <div className="md:hidden flex flex-row justify-around gap-4 items-center h-[70%]">
-        <SkillLogo innerwh={60} src="node-logo.svg" />
-        <SkillLogo innerwh={60} src="express-logo.svg" />
-        <SkillLogo innerwh={60} src="mysql.svg" />
-        <SkillLogo innerwh={60} src="prisma.svg" />
+        <SkillLogo innerwh={60} src="node-logo.svg" name="Node JS" />
+        <SkillLogo innerwh={60} src="express-logo.svg" name="Express JS" />
+        <SkillLogo innerwh={60} src="mysql.svg" name="MySql Workbench" />
+        <SkillLogo innerwh={60} src="prisma.svg" name="Prisma" />
       </div>
       <div className="hidden md:flex flex-row justify-around gap-4 md:gap-10 items-center ">
-        <SkillLogo innerwh={100} src="node-logo.svg" />
-        <SkillLogo innerwh={100} src="express-logo.svg" />
-        <SkillLogo innerwh={100} src="mysql.svg" />
-        <SkillLogo innerwh={100} src="prisma.svg" />
+        <SkillLogo innerwh={100} src="node-logo.svg" name="Node JS" />
+        <SkillLogo innerwh={100} src="express-logo.svg" name="Express JS" />
+        <SkillLogo innerwh={100} src="mysql.svg" name="MySql Workbench" />
+        <SkillLogo innerwh={100} src="prisma.svg" name="Prisma" />
       </div>
     </div>
   );

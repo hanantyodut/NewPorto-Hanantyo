@@ -6,7 +6,7 @@ export default function MainLanguage() {
       <p className="text-gray-700 dark:text-black md:text-lg md:font-medium text-center md:pb-2 ">
         Main Language
       </p>
-      <SkillLogo innerwh={100} src="typescript.svg" />
+      <SkillLogo innerwh={100} src="typescript.svg" name="TypeScript" />
     </div>
   );
 }

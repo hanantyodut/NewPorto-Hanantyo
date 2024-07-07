@@ -7,14 +7,22 @@ export default function GeneralTasks() {
         General Tasks
       </p>
       <div className="md:hidden flex flex-row justify-around gap-4 items-center h-[70%]">
-        <SkillLogo innerwh={70} src="word-logo.svg" />
-        <SkillLogo innerwh={70} src="excel-logo.svg" />
-        <SkillLogo innerwh={70} src="powerpoint-logo.svg" />
+        <SkillLogo innerwh={70} src="word-logo.svg" name="Microsoft Word" />
+        <SkillLogo innerwh={70} src="excel-logo.svg" name="Microsoft Excel" />
+        <SkillLogo
+          innerwh={70}
+          src="powerpoint-logo.svg"
+          name="Microsoft Powerpoint"
+        />
       </div>
       <div className="hidden md:flex flex-row justify-around gap-4 md:gap-10 items-center ">
-        <SkillLogo innerwh={100} src="word-logo.svg" />
-        <SkillLogo innerwh={100} src="excel-logo.svg" />
-        <SkillLogo innerwh={100} src="powerpoint-logo.svg" />
+        <SkillLogo innerwh={100} src="word-logo.svg" name="Microsoft Word" />
+        <SkillLogo innerwh={100} src="excel-logo.svg" name="Microsoft Excel" />
+        <SkillLogo
+          innerwh={100}
+          src="powerpoint-logo.svg"
+          name="Microsoft Powerpoint"
+        />
       </div>
     </div>
   );

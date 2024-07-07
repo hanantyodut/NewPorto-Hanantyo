@@ -64,3 +64,22 @@ export const organization: {
     loc: "Yogyakarta",
   },
 ];
+
+export interface Images {
+  id: number;
+  image: string;
+}
+
+export const llamsImages: Images[] = [
+  { id: 1, image: "/assets/llams-1.png" },
+  { id: 2, image: "/assets/llams-2.png" },
+  { id: 3, image: "/assets/llams-3.png" },
+];
+
+export const comproImages = [
+  { id: 1, image: "/assets/poly-1.png" },
+  { id: 2, image: "/assets/poly-2.png" },
+  { id: 3, image: "/assets/poly-3.png" },
+  { id: 4, image: "/assets/poly-4.png" },
+  { id: 5, image: "/assets/poly-5.png" },
+];

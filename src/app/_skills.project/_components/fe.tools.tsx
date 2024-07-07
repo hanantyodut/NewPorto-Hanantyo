@@ -7,14 +7,14 @@ export default function FrontEndTools() {
         Front-End Development
       </p>
       <div className="md:hidden flex flex-row justify-around gap-4 items-center h-[70%]">
-        <SkillLogo innerwh={70} src="next-logo.svg" />
-        <SkillLogo innerwh={60} src="tailwind.svg" />
-        <SkillLogo innerwh={60} src="react.svg" />
+        <SkillLogo innerwh={70} src="next-logo.svg" name="Next JS" />
+        <SkillLogo innerwh={60} src="tailwind.svg" name="Tailwind CSS" />
+        <SkillLogo innerwh={60} src="react.svg" name="React JS" />
       </div>
       <div className="hidden md:flex flex-row justify-around gap-4 md:gap-10 items-center ">
-        <SkillLogo innerwh={100} src="next-logo.svg" />
-        <SkillLogo innerwh={100} src="tailwind.svg" />
-        <SkillLogo innerwh={100} src="react.svg" />
+        <SkillLogo innerwh={100} src="next-logo.svg" name="Next JS" />
+        <SkillLogo innerwh={100} src="tailwind.svg" name="Tailwind CSS" />
+        <SkillLogo innerwh={100} src="react.svg" name="React JS" />
       </div>
     </div>
   );
