@@ -23,7 +23,7 @@ export default function ProjectsLlams() {
     },
   ];
   return (
-    <div className="w-full flex flex-col md:flex-row gap-2 md:gap-8">
+    <div className="w-full flex flex-col md:flex-row gap-2 md:gap-16">
       <Title
         title={"LLAMS."}
         sub={"Gig-type Event Ticketing Website"}

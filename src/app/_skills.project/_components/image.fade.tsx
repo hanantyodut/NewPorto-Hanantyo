@@ -18,29 +18,29 @@ export default function ImageTrans({ img }: Props) {
   }, []);
   return (
     <div className="w-full md:h-[35vh] h-[26vh] md:w-[40%] bg-gray-700 rounded-md  bg-no-repeat overflow-hidden relative">
-      <Link
-        target="_blank"
-        href={
-          "https://drive.google.com/file/d/1onmUzKDPtiMErgbOcyuq-f8wqbYqWfVd/view"
-        }
-      >
-        {
-          img.map((i, index) => (
-            <Image
-              key={i.id}
-              src={i.image}
-              alt={`image ${i.id + 1}`}
-              style={{
-                opacity: currentImageId === index ? 1 : 0,
-                transition: "opacity 1s ease-in-out",
-              }}
-              layout="fill"
-              objectFit="contain"
-              className="px-4 py-0"
-            />
-          )) as any
-        }
-        <Button
+      {
+        img.map((i, index) => (
+          <Image
+            key={i.id}
+            src={i.image}
+            alt={`image ${i.id + 1}`}
+            style={{
+              opacity: currentImageId === index ? 1 : 0,
+              transition: "opacity 1s ease-in-out",
+            }}
+            layout="fill"
+            objectFit="contain"
+            className="px-4 py-0"
+          />
+        )) as any
+      }
+      {/* <Link
+                target="_blank"
+                href={
+                  "https://drive.google.com/file/d/1onmUzKDPtiMErgbOcyuq-f8wqbYqWfVd/view"
+                }
+              >
+         <Button
           disabled={false}
           className="md:bottom-5 md:left-5 bottom-3 left-3 absolute"
         >
@@ -48,8 +48,8 @@ export default function ImageTrans({ img }: Props) {
             <RxVercelLogo />
             <p className="text-md">Open project on vercell.</p>
           </div>
-        </Button>
-      </Link>
+        </Button> 
+      </Link> */}
     </div>
   );
 }

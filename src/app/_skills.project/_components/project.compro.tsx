@@ -14,7 +14,7 @@ export default function ProjectsCompro() {
     },
   ];
   return (
-    <div className="w-full flex flex-col md:flex-row-reverse gap-2 md:gap-8 mt-4 md:mt-0">
+    <div className="w-full flex flex-col md:flex-row-reverse gap-2 md:gap-16 mt-4 md:mt-0">
       <Title
         title={"Polymore"}
         sub={"Company Profile Website"}
